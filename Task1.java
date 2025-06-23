@@ -53,7 +53,7 @@ public class Task1 {
                     break;
 
                 default:
-                    System.out.println("Invalid choice. Please select 1 to 4.");
+                    System.out.println("Invalid choice. Please select 1 to 4 ");
             }
 
             System.out.println("\nDo you want calculation onther numbers ");
@@ -62,8 +62,8 @@ public class Task1 {
 
         } while (ClickChoice == 1);
 
-        System.out.println("\n🙏 Thank you for using the calculator. Goodbye!");
-        sc.close();
+        System.out.println("\n🙏 Thank you for using the calculator ! Goodbye!");
+        
     }
 
     public static void main(String[] args) {
